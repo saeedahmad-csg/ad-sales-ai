@@ -1,0 +1,38 @@
+{
+  "intercept": 5.288596308377747,
+  "coefficients": [
+    0.07618057018258902,
+    -0.037179442495038365,
+    -0.009997573480069626,
+    -0.00011053289100084832,
+    0.00042401326217499666,
+    -0.000009138908878515033,
+    0.0017030553925401265,
+    0.0001402853787575666,
+    0.00011542045553962512
+  ],
+  "feature_names": [
+    "TV",
+    "Radio",
+    "Newspaper",
+    "TV^2",
+    "TV Radio",
+    "TV Newspaper",
+    "Radio^2",
+    "Radio Newspaper",
+    "Newspaper^2"
+  ],
+  "degree": 2,
+  "include_bias": false,
+  "feature_map": {
+    "TV": 0,
+    "Radio": 1,
+    "Newspaper": 2,
+    "TV^2": 3,
+    "TV Radio": 4,
+    "TV Newspaper": 5,
+    "Radio^2": 6,
+    "Radio Newspaper": 7,
+    "Newspaper^2": 8
+  }
+}

@@ -1,0 +1,1807 @@
+{
+  "model": {
+    "type": "Polynomial Regression",
+    "degree": 2,
+    "n_features": 9,
+    "n_training_samples": 160,
+    "n_test_samples": 40
+  },
+  "performance": {
+    "r2_train": 0.9338,
+    "r2_test": 0.941,
+    "rmse_train": 1.3566,
+    "rmse_test": 1.2635
+  },
+  "data_ranges": {
+    "TV": {
+      "min": 0.7,
+      "max": 296.4,
+      "mean": 147.04
+    },
+    "Radio": {
+      "min": 0,
+      "max": 49.6,
+      "mean": 23.26
+    },
+    "Newspaper": {
+      "min": 0.3,
+      "max": 114,
+      "mean": 30.55
+    },
+    "Sales": {
+      "min": 1.6,
+      "max": 27,
+      "mean": 15.13
+    }
+  },
+  "feature_importance": {
+    "TV": 60.528,
+    "Radio": 29.5403,
+    "Newspaper": 7.9434,
+    "TV^2": 0.0878,
+    "TV Radio": 0.3369,
+    "TV Newspaper": 0.0073,
+    "Radio^2": 1.3531,
+    "Radio Newspaper": 0.1115,
+    "Newspaper^2": 0.0917
+  },
+  "diminishing_returns": {
+    "TV": {
+      "budgets": [
+        0,
+        6.12,
+        12.24,
+        18.37,
+        24.49,
+        30.61,
+        36.73,
+        42.86,
+        48.98,
+        55.1,
+        61.22,
+        67.35,
+        73.47,
+        79.59,
+        85.71,
+        91.84,
+        97.96,
+        104.08,
+        110.2,
+        116.33,
+        122.45,
+        128.57,
+        134.69,
+        140.82,
+        146.94,
+        153.06,
+        159.18,
+        165.31,
+        171.43,
+        177.55,
+        183.67,
+        189.8,
+        195.92,
+        202.04,
+        208.16,
+        214.29,
+        220.41,
+        226.53,
+        232.65,
+        238.78,
+        244.9,
+        251.02,
+        257.14,
+        263.27,
+        269.39,
+        275.51,
+        281.63,
+        287.76,
+        293.88,
+        300
+      ],
+      "sales": [
+        5.2472,
+        5.7681,
+        6.2808,
+        6.7852,
+        7.2812,
+        7.769,
+        8.2485,
+        8.7198,
+        9.1827,
+        9.6373,
+        10.0837,
+        10.5218,
+        10.9516,
+        11.3731,
+        11.7863,
+        12.1912,
+        12.5879,
+        12.9762,
+        13.3563,
+        13.7281,
+        14.0916,
+        14.4468,
+        14.7937,
+        15.1324,
+        15.4627,
+        15.7848,
+        16.0986,
+        16.4041,
+        16.7013,
+        16.9902,
+        17.2708,
+        17.5432,
+        17.8072,
+        18.063,
+        18.3105,
+        18.5497,
+        18.7806,
+        19.0032,
+        19.2176,
+        19.4236,
+        19.6214,
+        19.8109,
+        19.9921,
+        20.165,
+        20.3296,
+        20.4859,
+        20.634,
+        20.7737,
+        20.9052,
+        21.0284
+      ]
+    },
+    "Radio": {
+      "budgets": [
+        0,
+        1.02,
+        2.04,
+        3.06,
+        4.08,
+        5.1,
+        6.12,
+        7.14,
+        8.16,
+        9.18,
+        10.2,
+        11.22,
+        12.24,
+        13.27,
+        14.29,
+        15.31,
+        16.33,
+        17.35,
+        18.37,
+        19.39,
+        20.41,
+        21.43,
+        22.45,
+        23.47,
+        24.49,
+        25.51,
+        26.53,
+        27.55,
+        28.57,
+        29.59,
+        30.61,
+        31.63,
+        32.65,
+        33.67,
+        34.69,
+        35.71,
+        36.73,
+        37.76,
+        38.78,
+        39.8,
+        40.82,
+        41.84,
+        42.86,
+        43.88,
+        44.9,
+        45.92,
+        46.94,
+        47.96,
+        48.98,
+        50
+      ],
+      "sales": [
+        13.8616,
+        13.8935,
+        13.9288,
+        13.9677,
+        14.0102,
+        14.0562,
+        14.1058,
+        14.1589,
+        14.2155,
+        14.2757,
+        14.3395,
+        14.4068,
+        14.4776,
+        14.552,
+        14.6299,
+        14.7114,
+        14.7965,
+        14.885,
+        14.9771,
+        15.0728,
+        15.172,
+        15.2748,
+        15.3811,
+        15.4909,
+        15.6043,
+        15.7213,
+        15.8418,
+        15.9658,
+        16.0934,
+        16.2245,
+        16.3592,
+        16.4974,
+        16.6392,
+        16.7845,
+        16.9334,
+        17.0858,
+        17.2417,
+        17.4013,
+        17.5643,
+        17.7309,
+        17.901,
+        18.0747,
+        18.252,
+        18.4327,
+        18.6171,
+        18.805,
+        18.9964,
+        19.1913,
+        19.3899,
+        19.5919
+      ]
+    },
+    "Newspaper": {
+      "budgets": [
+        0,
+        2.04,
+        4.08,
+        6.12,
+        8.16,
+        10.2,
+        12.24,
+        14.29,
+        16.33,
+        18.37,
+        20.41,
+        22.45,
+        24.49,
+        26.53,
+        28.57,
+        30.61,
+        32.65,
+        34.69,
+        36.73,
+        38.78,
+        40.82,
+        42.86,
+        44.9,
+        46.94,
+        48.98,
+        51.02,
+        53.06,
+        55.1,
+        57.14,
+        59.18,
+        61.22,
+        63.27,
+        65.31,
+        67.35,
+        69.39,
+        71.43,
+        73.47,
+        75.51,
+        77.55,
+        79.59,
+        81.63,
+        83.67,
+        85.71,
+        87.76,
+        89.8,
+        91.84,
+        93.88,
+        95.92,
+        97.96,
+        100
+      ],
+      "sales": [
+        15.6072,
+        15.5912,
+        15.5761,
+        15.562,
+        15.5489,
+        15.5368,
+        15.5256,
+        15.5153,
+        15.5061,
+        15.4977,
+        15.4904,
+        15.484,
+        15.4786,
+        15.4741,
+        15.4706,
+        15.468,
+        15.4665,
+        15.4658,
+        15.4662,
+        15.4675,
+        15.4697,
+        15.473,
+        15.4771,
+        15.4823,
+        15.4884,
+        15.4955,
+        15.5035,
+        15.5125,
+        15.5224,
+        15.5334,
+        15.5452,
+        15.5581,
+        15.5719,
+        15.5866,
+        15.6024,
+        15.619,
+        15.6367,
+        15.6553,
+        15.6749,
+        15.6954,
+        15.7169,
+        15.7393,
+        15.7627,
+        15.7871,
+        15.8124,
+        15.8387,
+        15.866,
+        15.8942,
+        15.9234,
+        15.9535
+      ]
+    }
+  },
+  "sample_predictions": [
+    {
+      "TV": 230.1,
+      "Radio": 37.8,
+      "Newspaper": 69.2,
+      "actual_sales": 22.1,
+      "predicted_sales": 21.76
+    },
+    {
+      "TV": 44.5,
+      "Radio": 39.3,
+      "Newspaper": 45.1,
+      "actual_sales": 10.4,
+      "predicted_sales": 10.38
+    },
+    {
+      "TV": 17.2,
+      "Radio": 45.9,
+      "Newspaper": 69.3,
+      "actual_sales": 12,
+      "predicted_sales": 9.08
+    },
+    {
+      "TV": 151.5,
+      "Radio": 41.3,
+      "Newspaper": 58.5,
+      "actual_sales": 16.5,
+      "predicted_sales": 18.38
+    },
+    {
+      "TV": 180.8,
+      "Radio": 10.8,
+      "Newspaper": 58.4,
+      "actual_sales": 17.9,
+      "predicted_sales": 15.88
+    }
+  ],
+  "all_predictions": [
+    {
+      "TV": 230.1,
+      "Radio": 37.8,
+      "Newspaper": 69.2,
+      "actual": 22.1,
+      "predicted": 21.76
+    },
+    {
+      "TV": 44.5,
+      "Radio": 39.3,
+      "Newspaper": 45.1,
+      "actual": 10.4,
+      "predicted": 10.38
+    },
+    {
+      "TV": 17.2,
+      "Radio": 45.9,
+      "Newspaper": 69.3,
+      "actual": 12,
+      "predicted": 9.08
+    },
+    {
+      "TV": 151.5,
+      "Radio": 41.3,
+      "Newspaper": 58.5,
+      "actual": 16.5,
+      "predicted": 18.38
+    },
+    {
+      "TV": 180.8,
+      "Radio": 10.8,
+      "Newspaper": 58.4,
+      "actual": 17.9,
+      "predicted": 15.88
+    },
+    {
+      "TV": 8.7,
+      "Radio": 48.9,
+      "Newspaper": 75,
+      "actual": 7.2,
+      "predicted": 8.79
+    },
+    {
+      "TV": 57.5,
+      "Radio": 32.8,
+      "Newspaper": 23.5,
+      "actual": 11.8,
+      "predicted": 10.64
+    },
+    {
+      "TV": 120.2,
+      "Radio": 19.6,
+      "Newspaper": 11.6,
+      "actual": 13.2,
+      "predicted": 13.69
+    },
+    {
+      "TV": 8.6,
+      "Radio": 2.1,
+      "Newspaper": 1,
+      "actual": 4.8,
+      "predicted": 5.86
+    },
+    {
+      "TV": 199.8,
+      "Radio": 2.6,
+      "Newspaper": 21.2,
+      "actual": 15.6,
+      "predicted": 16.04
+    },
+    {
+      "TV": 66.1,
+      "Radio": 5.8,
+      "Newspaper": 24.2,
+      "actual": 12.6,
+      "predicted": 9.68
+    },
+    {
+      "TV": 214.7,
+      "Radio": 24,
+      "Newspaper": 4,
+      "actual": 17.4,
+      "predicted": 18.79
+    },
+    {
+      "TV": 23.8,
+      "Radio": 35.1,
+      "Newspaper": 65.9,
+      "actual": 9.2,
+      "predicted": 8.34
+    },
+    {
+      "TV": 97.5,
+      "Radio": 7.6,
+      "Newspaper": 7.2,
+      "actual": 13.7,
+      "predicted": 11.73
+    },
+    {
+      "TV": 204.1,
+      "Radio": 32.9,
+      "Newspaper": 46,
+      "actual": 19,
+      "predicted": 19.61
+    },
+    {
+      "TV": 195.4,
+      "Radio": 47.7,
+      "Newspaper": 52.9,
+      "actual": 22.4,
+      "predicted": 22.06
+    },
+    {
+      "TV": 67.8,
+      "Radio": 36.6,
+      "Newspaper": 114,
+      "actual": 12.5,
+      "predicted": 12.79
+    },
+    {
+      "TV": 281.4,
+      "Radio": 39.6,
+      "Newspaper": 55.8,
+      "actual": 24.4,
+      "predicted": 23.86
+    },
+    {
+      "TV": 69.2,
+      "Radio": 20.5,
+      "Newspaper": 18.3,
+      "actual": 11.3,
+      "predicted": 10.48
+    },
+    {
+      "TV": 147.3,
+      "Radio": 23.9,
+      "Newspaper": 19.1,
+      "actual": 14.6,
+      "predicted": 15.58
+    },
+    {
+      "TV": 218.4,
+      "Radio": 27.7,
+      "Newspaper": 53.4,
+      "actual": 18,
+      "predicted": 19.39
+    },
+    {
+      "TV": 237.4,
+      "Radio": 5.1,
+      "Newspaper": 23.5,
+      "actual": 17.5,
+      "predicted": 17.31
+    },
+    {
+      "TV": 13.2,
+      "Radio": 15.9,
+      "Newspaper": 49.6,
+      "actual": 5.6,
+      "predicted": 6.1
+    },
+    {
+      "TV": 228.3,
+      "Radio": 16.9,
+      "Newspaper": 26.2,
+      "actual": 20.5,
+      "predicted": 18.24
+    },
+    {
+      "TV": 62.3,
+      "Radio": 12.6,
+      "Newspaper": 18.3,
+      "actual": 9.7,
+      "predicted": 9.62
+    },
+    {
+      "TV": 262.9,
+      "Radio": 3.5,
+      "Newspaper": 19.5,
+      "actual": 17,
+      "predicted": 17.77
+    },
+    {
+      "TV": 142.9,
+      "Radio": 29.3,
+      "Newspaper": 12.6,
+      "actual": 15,
+      "predicted": 15.99
+    },
+    {
+      "TV": 240.1,
+      "Radio": 16.7,
+      "Newspaper": 22.9,
+      "actual": 20.9,
+      "predicted": 18.6
+    },
+    {
+      "TV": 248.8,
+      "Radio": 27.1,
+      "Newspaper": 22.9,
+      "actual": 18.9,
+      "predicted": 20.37
+    },
+    {
+      "TV": 70.6,
+      "Radio": 16,
+      "Newspaper": 40.8,
+      "actual": 10.5,
+      "predicted": 10.29
+    },
+    {
+      "TV": 292.9,
+      "Radio": 28.3,
+      "Newspaper": 43.2,
+      "actual": 21.4,
+      "predicted": 21.79
+    },
+    {
+      "TV": 112.9,
+      "Radio": 17.4,
+      "Newspaper": 38.6,
+      "actual": 11.9,
+      "predicted": 13.02
+    },
+    {
+      "TV": 97.2,
+      "Radio": 1.5,
+      "Newspaper": 30,
+      "actual": 13.2,
+      "predicted": 11.44
+    },
+    {
+      "TV": 265.6,
+      "Radio": 20,
+      "Newspaper": 0.3,
+      "actual": 17.4,
+      "predicted": 19.91
+    },
+    {
+      "TV": 95.7,
+      "Radio": 1.4,
+      "Newspaper": 7.4,
+      "actual": 11.9,
+      "predicted": 11.5
+    },
+    {
+      "TV": 290.7,
+      "Radio": 4.1,
+      "Newspaper": 8.5,
+      "actual": 17.8,
+      "predicted": 18.38
+    },
+    {
+      "TV": 266.9,
+      "Radio": 43.8,
+      "Newspaper": 5,
+      "actual": 25.4,
+      "predicted": 24.31
+    },
+    {
+      "TV": 74.7,
+      "Radio": 49.4,
+      "Newspaper": 45.7,
+      "actual": 14.7,
+      "predicted": 14.32
+    },
+    {
+      "TV": 43.1,
+      "Radio": 26.7,
+      "Newspaper": 35.1,
+      "actual": 10.1,
+      "predicted": 8.98
+    },
+    {
+      "TV": 228,
+      "Radio": 37.7,
+      "Newspaper": 32,
+      "actual": 21.5,
+      "predicted": 21.48
+    },
+    {
+      "TV": 202.5,
+      "Radio": 22.3,
+      "Newspaper": 31.6,
+      "actual": 16.6,
+      "predicted": 17.95
+    },
+    {
+      "TV": 177,
+      "Radio": 33.4,
+      "Newspaper": 38.7,
+      "actual": 17.1,
+      "predicted": 18.38
+    },
+    {
+      "TV": 293.6,
+      "Radio": 27.7,
+      "Newspaper": 1.8,
+      "actual": 20.7,
+      "predicted": 21.84
+    },
+    {
+      "TV": 206.9,
+      "Radio": 8.4,
+      "Newspaper": 26.4,
+      "actual": 17.9,
+      "predicted": 16.66
+    },
+    {
+      "TV": 25.1,
+      "Radio": 25.7,
+      "Newspaper": 43.3,
+      "actual": 8.5,
+      "predicted": 7.5
+    },
+    {
+      "TV": 175.1,
+      "Radio": 22.5,
+      "Newspaper": 31.5,
+      "actual": 16.1,
+      "predicted": 16.78
+    },
+    {
+      "TV": 89.7,
+      "Radio": 9.9,
+      "Newspaper": 35.7,
+      "actual": 10.6,
+      "predicted": 11.22
+    },
+    {
+      "TV": 239.9,
+      "Radio": 41.5,
+      "Newspaper": 18.5,
+      "actual": 23.2,
+      "predicted": 22.74
+    },
+    {
+      "TV": 227.2,
+      "Radio": 15.8,
+      "Newspaper": 49.9,
+      "actual": 19.8,
+      "predicted": 18.05
+    },
+    {
+      "TV": 66.9,
+      "Radio": 11.7,
+      "Newspaper": 36.8,
+      "actual": 9.7,
+      "predicted": 9.85
+    },
+    {
+      "TV": 199.8,
+      "Radio": 3.1,
+      "Newspaper": 34.6,
+      "actual": 16.4,
+      "predicted": 16
+    },
+    {
+      "TV": 100.4,
+      "Radio": 9.6,
+      "Newspaper": 3.6,
+      "actual": 10.7,
+      "predicted": 12
+    },
+    {
+      "TV": 216.4,
+      "Radio": 41.7,
+      "Newspaper": 39.6,
+      "actual": 22.6,
+      "predicted": 21.77
+    },
+    {
+      "TV": 182.6,
+      "Radio": 46.2,
+      "Newspaper": 58.7,
+      "actual": 21.2,
+      "predicted": 21.1
+    },
+    {
+      "TV": 262.7,
+      "Radio": 28.8,
+      "Newspaper": 15.9,
+      "actual": 20.2,
+      "predicted": 21.12
+    },
+    {
+      "TV": 198.9,
+      "Radio": 49.4,
+      "Newspaper": 60,
+      "actual": 23.7,
+      "predicted": 22.68
+    },
+    {
+      "TV": 7.3,
+      "Radio": 28.1,
+      "Newspaper": 41.4,
+      "actual": 5.5,
+      "predicted": 6.17
+    },
+    {
+      "TV": 136.2,
+      "Radio": 19.2,
+      "Newspaper": 16.6,
+      "actual": 13.2,
+      "predicted": 14.53
+    },
+    {
+      "TV": 210.8,
+      "Radio": 49.6,
+      "Newspaper": 37.7,
+      "actual": 23.8,
+      "predicted": 23.19
+    },
+    {
+      "TV": 210.7,
+      "Radio": 29.5,
+      "Newspaper": 9.3,
+      "actual": 18.4,
+      "predicted": 19.39
+    },
+    {
+      "TV": 53.5,
+      "Radio": 2,
+      "Newspaper": 21.4,
+      "actual": 8.1,
+      "predicted": 8.86
+    },
+    {
+      "TV": 261.3,
+      "Radio": 42.7,
+      "Newspaper": 54.7,
+      "actual": 24.2,
+      "predicted": 23.89
+    },
+    {
+      "TV": 239.3,
+      "Radio": 15.5,
+      "Newspaper": 27.3,
+      "actual": 20.7,
+      "predicted": 18.41
+    },
+    {
+      "TV": 102.7,
+      "Radio": 29.6,
+      "Newspaper": 8.4,
+      "actual": 14,
+      "predicted": 13.58
+    },
+    {
+      "TV": 131.1,
+      "Radio": 42.8,
+      "Newspaper": 28.9,
+      "actual": 16,
+      "predicted": 17.23
+    },
+    {
+      "TV": 69,
+      "Radio": 9.3,
+      "Newspaper": 0.9,
+      "actual": 11.3,
+      "predicted": 10.08
+    },
+    {
+      "TV": 31.5,
+      "Radio": 24.6,
+      "Newspaper": 2.2,
+      "actual": 11,
+      "predicted": 8.01
+    },
+    {
+      "TV": 139.3,
+      "Radio": 14.5,
+      "Newspaper": 10.2,
+      "actual": 13.4,
+      "predicted": 14.35
+    },
+    {
+      "TV": 237.4,
+      "Radio": 27.5,
+      "Newspaper": 11,
+      "actual": 18.9,
+      "predicted": 20.1
+    },
+    {
+      "TV": 216.8,
+      "Radio": 43.9,
+      "Newspaper": 27.2,
+      "actual": 22.3,
+      "predicted": 22.22
+    },
+    {
+      "TV": 199.1,
+      "Radio": 30.6,
+      "Newspaper": 38.7,
+      "actual": 18.3,
+      "predicted": 19
+    },
+    {
+      "TV": 109.8,
+      "Radio": 14.3,
+      "Newspaper": 31.7,
+      "actual": 12.4,
+      "predicted": 12.63
+    },
+    {
+      "TV": 26.8,
+      "Radio": 33,
+      "Newspaper": 19.3,
+      "actual": 8.8,
+      "predicted": 8.19
+    },
+    {
+      "TV": 129.4,
+      "Radio": 5.7,
+      "Newspaper": 31.3,
+      "actual": 11,
+      "predicted": 13.24
+    },
+    {
+      "TV": 213.4,
+      "Radio": 24.6,
+      "Newspaper": 13.1,
+      "actual": 17,
+      "predicted": 18.76
+    },
+    {
+      "TV": 16.9,
+      "Radio": 43.7,
+      "Newspaper": 89.4,
+      "actual": 8.7,
+      "predicted": 9.05
+    },
+    {
+      "TV": 27.5,
+      "Radio": 1.6,
+      "Newspaper": 20.7,
+      "actual": 6.9,
+      "predicted": 7.11
+    },
+    {
+      "TV": 120.5,
+      "Radio": 28.5,
+      "Newspaper": 14.2,
+      "actual": 14.2,
+      "predicted": 14.57
+    },
+    {
+      "TV": 5.4,
+      "Radio": 29.9,
+      "Newspaper": 9.4,
+      "actual": 5.3,
+      "predicted": 6.13
+    },
+    {
+      "TV": 116,
+      "Radio": 7.7,
+      "Newspaper": 23.1,
+      "actual": 11,
+      "predicted": 12.66
+    },
+    {
+      "TV": 76.4,
+      "Radio": 26.7,
+      "Newspaper": 22.3,
+      "actual": 11.8,
+      "predicted": 11.45
+    },
+    {
+      "TV": 239.8,
+      "Radio": 4.1,
+      "Newspaper": 36.9,
+      "actual": 17.3,
+      "predicted": 17.22
+    },
+    {
+      "TV": 75.3,
+      "Radio": 20.3,
+      "Newspaper": 32.5,
+      "actual": 11.3,
+      "predicted": 10.86
+    },
+    {
+      "TV": 68.4,
+      "Radio": 44.5,
+      "Newspaper": 35.6,
+      "actual": 13.6,
+      "predicted": 12.98
+    },
+    {
+      "TV": 213.5,
+      "Radio": 43,
+      "Newspaper": 33.8,
+      "actual": 21.7,
+      "predicted": 21.89
+    },
+    {
+      "TV": 193.2,
+      "Radio": 18.4,
+      "Newspaper": 65.7,
+      "actual": 20.2,
+      "predicted": 17.18
+    },
+    {
+      "TV": 76.3,
+      "Radio": 27.5,
+      "Newspaper": 16,
+      "actual": 12,
+      "predicted": 11.53
+    },
+    {
+      "TV": 110.7,
+      "Radio": 40.6,
+      "Newspaper": 63.2,
+      "actual": 16,
+      "predicted": 15.7
+    },
+    {
+      "TV": 88.3,
+      "Radio": 25.5,
+      "Newspaper": 73.4,
+      "actual": 12.9,
+      "predicted": 12.36
+    },
+    {
+      "TV": 109.8,
+      "Radio": 47.8,
+      "Newspaper": 51.4,
+      "actual": 16.7,
+      "predicted": 16.74
+    },
+    {
+      "TV": 134.3,
+      "Radio": 4.9,
+      "Newspaper": 9.3,
+      "actual": 14,
+      "predicted": 13.58
+    },
+    {
+      "TV": 28.6,
+      "Radio": 1.5,
+      "Newspaper": 33,
+      "actual": 7.3,
+      "predicted": 7.14
+    },
+    {
+      "TV": 217.7,
+      "Radio": 33.5,
+      "Newspaper": 59,
+      "actual": 19.4,
+      "predicted": 20.36
+    },
+    {
+      "TV": 250.9,
+      "Radio": 36.5,
+      "Newspaper": 72.3,
+      "actual": 22.2,
+      "predicted": 22.32
+    },
+    {
+      "TV": 107.4,
+      "Radio": 14,
+      "Newspaper": 10.9,
+      "actual": 11.5,
+      "predicted": 12.56
+    },
+    {
+      "TV": 163.3,
+      "Radio": 31.6,
+      "Newspaper": 52.9,
+      "actual": 16.9,
+      "predicted": 17.44
+    },
+    {
+      "TV": 197.6,
+      "Radio": 3.5,
+      "Newspaper": 5.9,
+      "actual": 16.7,
+      "predicted": 16.15
+    },
+    {
+      "TV": 184.9,
+      "Radio": 21,
+      "Newspaper": 22,
+      "actual": 20.5,
+      "predicted": 17.08
+    },
+    {
+      "TV": 289.7,
+      "Radio": 42.3,
+      "Newspaper": 51.2,
+      "actual": 25.4,
+      "predicted": 24.71
+    },
+    {
+      "TV": 135.2,
+      "Radio": 41.7,
+      "Newspaper": 45.9,
+      "actual": 17.2,
+      "predicted": 17.37
+    },
+    {
+      "TV": 222.4,
+      "Radio": 4.3,
+      "Newspaper": 49.8,
+      "actual": 16.7,
+      "predicted": 16.76
+    },
+    {
+      "TV": 296.4,
+      "Radio": 36.3,
+      "Newspaper": 100.9,
+      "actual": 23.8,
+      "predicted": 24.02
+    },
+    {
+      "TV": 280.2,
+      "Radio": 10.1,
+      "Newspaper": 21.4,
+      "actual": 19.8,
+      "predicted": 18.77
+    },
+    {
+      "TV": 187.9,
+      "Radio": 17.2,
+      "Newspaper": 17.9,
+      "actual": 19.7,
+      "predicted": 16.81
+    },
+    {
+      "TV": 238.2,
+      "Radio": 34.3,
+      "Newspaper": 5.3,
+      "actual": 20.7,
+      "predicted": 21.32
+    },
+    {
+      "TV": 137.9,
+      "Radio": 46.4,
+      "Newspaper": 59,
+      "actual": 15,
+      "predicted": 18.47
+    },
+    {
+      "TV": 25,
+      "Radio": 11,
+      "Newspaper": 29.7,
+      "actual": 7.2,
+      "predicted": 6.88
+    },
+    {
+      "TV": 90.4,
+      "Radio": 0.3,
+      "Newspaper": 23.2,
+      "actual": 12,
+      "predicted": 11.08
+    },
+    {
+      "TV": 13.1,
+      "Radio": 0.4,
+      "Newspaper": 25.6,
+      "actual": 5.3,
+      "predicted": 6.07
+    },
+    {
+      "TV": 255.4,
+      "Radio": 26.9,
+      "Newspaper": 5.5,
+      "actual": 19.8,
+      "predicted": 20.64
+    },
+    {
+      "TV": 225.8,
+      "Radio": 8.2,
+      "Newspaper": 56.5,
+      "actual": 18.4,
+      "predicted": 17.2
+    },
+    {
+      "TV": 241.7,
+      "Radio": 38,
+      "Newspaper": 23.2,
+      "actual": 21.8,
+      "predicted": 22.09
+    },
+    {
+      "TV": 175.7,
+      "Radio": 15.4,
+      "Newspaper": 2.4,
+      "actual": 17.1,
+      "predicted": 16.22
+    },
+    {
+      "TV": 209.6,
+      "Radio": 20.6,
+      "Newspaper": 10.7,
+      "actual": 20.9,
+      "predicted": 18.1
+    },
+    {
+      "TV": 78.2,
+      "Radio": 46.8,
+      "Newspaper": 34.5,
+      "actual": 14.6,
+      "predicted": 14.11
+    },
+    {
+      "TV": 75.1,
+      "Radio": 35,
+      "Newspaper": 52.7,
+      "actual": 12.6,
+      "predicted": 12.3
+    },
+    {
+      "TV": 139.2,
+      "Radio": 14.3,
+      "Newspaper": 25.6,
+      "actual": 12.2,
+      "predicted": 14.25
+    },
+    {
+      "TV": 76.4,
+      "Radio": 0.8,
+      "Newspaper": 14.8,
+      "actual": 9.4,
+      "predicted": 10.33
+    },
+    {
+      "TV": 125.7,
+      "Radio": 36.9,
+      "Newspaper": 79.2,
+      "actual": 15.9,
+      "predicted": 16.28
+    },
+    {
+      "TV": 19.4,
+      "Radio": 16,
+      "Newspaper": 22.3,
+      "actual": 6.6,
+      "predicted": 6.58
+    },
+    {
+      "TV": 141.3,
+      "Radio": 26.8,
+      "Newspaper": 46.2,
+      "actual": 15.5,
+      "predicted": 15.58
+    },
+    {
+      "TV": 18.8,
+      "Radio": 21.7,
+      "Newspaper": 50.4,
+      "actual": 7,
+      "predicted": 6.78
+    },
+    {
+      "TV": 224,
+      "Radio": 2.4,
+      "Newspaper": 15.6,
+      "actual": 16.6,
+      "predicted": 16.8
+    },
+    {
+      "TV": 123.1,
+      "Radio": 34.6,
+      "Newspaper": 12.4,
+      "actual": 15.2,
+      "predicted": 15.49
+    },
+    {
+      "TV": 229.5,
+      "Radio": 32.3,
+      "Newspaper": 74.2,
+      "actual": 19.7,
+      "predicted": 20.74
+    },
+    {
+      "TV": 87.2,
+      "Radio": 11.8,
+      "Newspaper": 25.9,
+      "actual": 10.6,
+      "predicted": 11.17
+    },
+    {
+      "TV": 7.8,
+      "Radio": 38.9,
+      "Newspaper": 50.6,
+      "actual": 6.6,
+      "predicted": 7.2
+    },
+    {
+      "TV": 80.2,
+      "Radio": 0,
+      "Newspaper": 9.2,
+      "actual": 11.9,
+      "predicted": 10.6
+    },
+    {
+      "TV": 220.3,
+      "Radio": 49,
+      "Newspaper": 3.2,
+      "actual": 24.7,
+      "predicted": 23.54
+    },
+    {
+      "TV": 59.6,
+      "Radio": 12,
+      "Newspaper": 43.1,
+      "actual": 9.7,
+      "predicted": 9.37
+    },
+    {
+      "TV": 0.7,
+      "Radio": 39.6,
+      "Newspaper": 8.7,
+      "actual": 1.6,
+      "predicted": 6.52
+    },
+    {
+      "TV": 265.2,
+      "Radio": 2.9,
+      "Newspaper": 43,
+      "actual": 17.7,
+      "predicted": 17.65
+    },
+    {
+      "TV": 8.4,
+      "Radio": 27.2,
+      "Newspaper": 2.1,
+      "actual": 5.7,
+      "predicted": 6.25
+    },
+    {
+      "TV": 219.8,
+      "Radio": 33.5,
+      "Newspaper": 45.1,
+      "actual": 19.6,
+      "predicted": 20.39
+    },
+    {
+      "TV": 36.9,
+      "Radio": 38.6,
+      "Newspaper": 65.6,
+      "actual": 10.8,
+      "predicted": 9.83
+    },
+    {
+      "TV": 48.3,
+      "Radio": 47,
+      "Newspaper": 8.5,
+      "actual": 11.6,
+      "predicted": 11.66
+    },
+    {
+      "TV": 25.6,
+      "Radio": 39,
+      "Newspaper": 9.3,
+      "actual": 9.5,
+      "predicted": 8.7
+    },
+    {
+      "TV": 273.7,
+      "Radio": 28.9,
+      "Newspaper": 59.7,
+      "actual": 20.8,
+      "predicted": 21.47
+    },
+    {
+      "TV": 43,
+      "Radio": 25.9,
+      "Newspaper": 20.5,
+      "actual": 9.6,
+      "predicted": 8.92
+    },
+    {
+      "TV": 184.9,
+      "Radio": 43.9,
+      "Newspaper": 1.7,
+      "actual": 20.7,
+      "predicted": 20.68
+    },
+    {
+      "TV": 73.4,
+      "Radio": 17,
+      "Newspaper": 12.9,
+      "actual": 10.9,
+      "predicted": 10.59
+    },
+    {
+      "TV": 193.7,
+      "Radio": 35.4,
+      "Newspaper": 75.6,
+      "actual": 19.2,
+      "predicted": 19.77
+    },
+    {
+      "TV": 220.5,
+      "Radio": 33.2,
+      "Newspaper": 37.9,
+      "actual": 20.1,
+      "predicted": 20.35
+    },
+    {
+      "TV": 104.6,
+      "Radio": 5.7,
+      "Newspaper": 34.4,
+      "actual": 10.4,
+      "predicted": 11.93
+    },
+    {
+      "TV": 96.2,
+      "Radio": 14.8,
+      "Newspaper": 38.9,
+      "actual": 12.3,
+      "predicted": 11.85
+    },
+    {
+      "TV": 140.3,
+      "Radio": 1.9,
+      "Newspaper": 9,
+      "actual": 10.3,
+      "predicted": 13.76
+    },
+    {
+      "TV": 240.1,
+      "Radio": 7.3,
+      "Newspaper": 8.7,
+      "actual": 18.2,
+      "predicted": 17.68
+    },
+    {
+      "TV": 243.2,
+      "Radio": 49,
+      "Newspaper": 44.3,
+      "actual": 25.4,
+      "predicted": 24.59
+    },
+    {
+      "TV": 38,
+      "Radio": 40.3,
+      "Newspaper": 11.9,
+      "actual": 10.9,
+      "predicted": 9.9
+    },
+    {
+      "TV": 44.7,
+      "Radio": 25.8,
+      "Newspaper": 20.6,
+      "actual": 10.1,
+      "predicted": 9.05
+    },
+    {
+      "TV": 280.7,
+      "Radio": 13.9,
+      "Newspaper": 37,
+      "actual": 16.1,
+      "predicted": 19.2
+    },
+    {
+      "TV": 121,
+      "Radio": 8.4,
+      "Newspaper": 48.7,
+      "actual": 11.6,
+      "predicted": 12.92
+    },
+    {
+      "TV": 197.6,
+      "Radio": 23.3,
+      "Newspaper": 14.2,
+      "actual": 16.6,
+      "predicted": 17.94
+    },
+    {
+      "TV": 171.3,
+      "Radio": 39.7,
+      "Newspaper": 37.7,
+      "actual": 16,
+      "predicted": 19.12
+    },
+    {
+      "TV": 187.8,
+      "Radio": 21.1,
+      "Newspaper": 9.5,
+      "actual": 20.6,
+      "predicted": 17.28
+    },
+    {
+      "TV": 4.1,
+      "Radio": 11.6,
+      "Newspaper": 5.7,
+      "actual": 3.2,
+      "predicted": 5.37
+    },
+    {
+      "TV": 93.9,
+      "Radio": 43.5,
+      "Newspaper": 50.5,
+      "actual": 15.3,
+      "predicted": 14.86
+    },
+    {
+      "TV": 149.8,
+      "Radio": 1.3,
+      "Newspaper": 24.3,
+      "actual": 10.1,
+      "predicted": 14.05
+    },
+    {
+      "TV": 11.7,
+      "Radio": 36.9,
+      "Newspaper": 45.2,
+      "actual": 7.3,
+      "predicted": 7.31
+    },
+    {
+      "TV": 131.7,
+      "Radio": 18.4,
+      "Newspaper": 34.6,
+      "actual": 12.9,
+      "predicted": 14.16
+    },
+    {
+      "TV": 172.5,
+      "Radio": 18.1,
+      "Newspaper": 30.7,
+      "actual": 16.4,
+      "predicted": 16.18
+    },
+    {
+      "TV": 85.7,
+      "Radio": 35.8,
+      "Newspaper": 49.3,
+      "actual": 13.3,
+      "predicted": 13.15
+    },
+    {
+      "TV": 188.4,
+      "Radio": 18.1,
+      "Newspaper": 25.6,
+      "actual": 19.9,
+      "predicted": 16.89
+    },
+    {
+      "TV": 163.5,
+      "Radio": 36.8,
+      "Newspaper": 7.4,
+      "actual": 18,
+      "predicted": 18.24
+    },
+    {
+      "TV": 117.2,
+      "Radio": 14.7,
+      "Newspaper": 5.4,
+      "actual": 11.9,
+      "predicted": 13.21
+    },
+    {
+      "TV": 234.5,
+      "Radio": 3.4,
+      "Newspaper": 84.8,
+      "actual": 16.9,
+      "predicted": 17.15
+    },
+    {
+      "TV": 17.9,
+      "Radio": 37.6,
+      "Newspaper": 21.6,
+      "actual": 8,
+      "predicted": 7.86
+    },
+    {
+      "TV": 206.8,
+      "Radio": 5.2,
+      "Newspaper": 19.4,
+      "actual": 17.2,
+      "predicted": 16.45
+    },
+    {
+      "TV": 215.4,
+      "Radio": 23.6,
+      "Newspaper": 57.6,
+      "actual": 17.1,
+      "predicted": 18.68
+    },
+    {
+      "TV": 284.3,
+      "Radio": 10.6,
+      "Newspaper": 6.4,
+      "actual": 20,
+      "predicted": 19.02
+    },
+    {
+      "TV": 50,
+      "Radio": 11.6,
+      "Newspaper": 18.4,
+      "actual": 8.4,
+      "predicted": 8.74
+    },
+    {
+      "TV": 164.5,
+      "Radio": 20.9,
+      "Newspaper": 47.4,
+      "actual": 17.5,
+      "predicted": 16.11
+    },
+    {
+      "TV": 19.6,
+      "Radio": 20.1,
+      "Newspaper": 17,
+      "actual": 7.6,
+      "predicted": 6.76
+    },
+    {
+      "TV": 168.4,
+      "Radio": 7.1,
+      "Newspaper": 12.8,
+      "actual": 16.7,
+      "predicted": 15.2
+    },
+    {
+      "TV": 222.4,
+      "Radio": 3.4,
+      "Newspaper": 13.1,
+      "actual": 16.5,
+      "predicted": 16.85
+    },
+    {
+      "TV": 276.9,
+      "Radio": 48.9,
+      "Newspaper": 41.8,
+      "actual": 27,
+      "predicted": 25.87
+    },
+    {
+      "TV": 248.4,
+      "Radio": 30.2,
+      "Newspaper": 20.3,
+      "actual": 20.2,
+      "predicted": 20.89
+    },
+    {
+      "TV": 170.2,
+      "Radio": 7.8,
+      "Newspaper": 35.2,
+      "actual": 16.7,
+      "predicted": 15.2
+    },
+    {
+      "TV": 276.7,
+      "Radio": 2.3,
+      "Newspaper": 23.7,
+      "actual": 16.8,
+      "predicted": 17.87
+    },
+    {
+      "TV": 165.6,
+      "Radio": 10,
+      "Newspaper": 17.6,
+      "actual": 17.6,
+      "predicted": 15.23
+    },
+    {
+      "TV": 156.6,
+      "Radio": 2.6,
+      "Newspaper": 8.3,
+      "actual": 15.5,
+      "predicted": 14.51
+    },
+    {
+      "TV": 218.5,
+      "Radio": 5.4,
+      "Newspaper": 27.4,
+      "actual": 17.2,
+      "predicted": 16.78
+    },
+    {
+      "TV": 56.2,
+      "Radio": 5.7,
+      "Newspaper": 29.7,
+      "actual": 8.7,
+      "predicted": 9.01
+    },
+    {
+      "TV": 287.6,
+      "Radio": 43,
+      "Newspaper": 71.8,
+      "actual": 26.2,
+      "predicted": 24.97
+    },
+    {
+      "TV": 253.8,
+      "Radio": 21.3,
+      "Newspaper": 30,
+      "actual": 17.6,
+      "predicted": 19.6
+    },
+    {
+      "TV": 205,
+      "Radio": 45.1,
+      "Newspaper": 19.6,
+      "actual": 22.6,
+      "predicted": 21.9
+    },
+    {
+      "TV": 139.5,
+      "Radio": 2.1,
+      "Newspaper": 26.6,
+      "actual": 10.3,
+      "predicted": 13.61
+    },
+    {
+      "TV": 191.1,
+      "Radio": 28.7,
+      "Newspaper": 18.2,
+      "actual": 17.3,
+      "predicted": 18.37
+    },
+    {
+      "TV": 286,
+      "Radio": 13.9,
+      "Newspaper": 3.7,
+      "actual": 20.9,
+      "predicted": 19.5
+    },
+    {
+      "TV": 18.7,
+      "Radio": 12.1,
+      "Newspaper": 23.4,
+      "actual": 6.7,
+      "predicted": 6.43
+    },
+    {
+      "TV": 39.5,
+      "Radio": 41.1,
+      "Newspaper": 5.8,
+      "actual": 10.8,
+      "predicted": 10.14
+    },
+    {
+      "TV": 75.5,
+      "Radio": 10.8,
+      "Newspaper": 6,
+      "actual": 11.9,
+      "predicted": 10.5
+    },
+    {
+      "TV": 17.2,
+      "Radio": 4.1,
+      "Newspaper": 31.6,
+      "actual": 5.9,
+      "predicted": 6.28
+    },
+    {
+      "TV": 166.8,
+      "Radio": 42,
+      "Newspaper": 3.6,
+      "actual": 19.6,
+      "predicted": 19.31
+    },
+    {
+      "TV": 149.7,
+      "Radio": 35.6,
+      "Newspaper": 6,
+      "actual": 17.3,
+      "predicted": 17.28
+    },
+    {
+      "TV": 38.2,
+      "Radio": 3.7,
+      "Newspaper": 13.8,
+      "actual": 7.6,
+      "predicted": 7.87
+    },
+    {
+      "TV": 94.2,
+      "Radio": 4.9,
+      "Newspaper": 8.1,
+      "actual": 14,
+      "predicted": 11.46
+    },
+    {
+      "TV": 177,
+      "Radio": 9.3,
+      "Newspaper": 6.4,
+      "actual": 14.8,
+      "predicted": 15.75
+    },
+    {
+      "TV": 283.6,
+      "Radio": 42,
+      "Newspaper": 66.2,
+      "actual": 25.5,
+      "predicted": 24.56
+    },
+    {
+      "TV": 232.1,
+      "Radio": 8.6,
+      "Newspaper": 8.7,
+      "actual": 18.4,
+      "predicted": 17.58
+    }
+  ]
+}
